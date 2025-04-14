@@ -1,0 +1,9 @@
+Push @ i8 $5
+Jump_NC [] -> [j0]
+	Push @ i8 $6
+[j0]
+Push @ i8 $7
+Jump_NC [] -> [j1]
+Push @ i8 $7
+[j1]
+Push @ i8 $7
